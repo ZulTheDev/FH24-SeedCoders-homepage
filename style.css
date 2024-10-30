@@ -1,0 +1,160 @@
+/*
+--Light Mode--
+Buttermilk      - #ffebb3 / rgb(255, 235, 179)
+Romantic        - #ffc7b3 / rgb(255, 199, 179)
+Carnation Pink  - #ffa3da / rgb(255, 163, 218)
+Anakiwa         - #a8fbff / rgb(168, 251, 255)
+Anakiwa (Dark)  - #73A4FF / rgb(153, 235, 255)
+
+--Dark Mode--
+Disco           - #74165b / rgb(116, 22, 91)
+Claret          - #671332 / rgb(103, 19, 50)
+Heath           - #520f1a / rgb(82, 15, 26)
+Aubergine       - #410b27 / rgb(65, 11, 39)
+Violet          - #2a072c / rgb(42, 7, 44)
+*/
+
+/* General Styles */
+
+/* Container */
+#container {
+    display: flow-root;
+    width: 100%;
+    margin: 0 20px;
+    background-color: rgb(255, 235, 179);
+}
+
+/* Header */
+#header {
+    display: block;
+    width: 100%;
+}
+
+/* Navigation Bar */
+#nav {
+    display: flex;
+    height: 50px;
+    background-color: rgb(255, 199, 179);
+    justify-content: center;
+    align-items: center;
+}
+
+#nav > .nav-item > a {
+    font-family: sans-serif, monospace;
+    font-size: 3vmax;
+    padding: 0 20px;
+    text-decoration: none;
+    color: rgb(84, 202, 231);
+    transition: color 0.3s;
+}
+
+#nav > .nav-item > a:hover {
+    color: rgb(255, 163, 218);
+}
+
+/* Content */
+#container {
+    display: flow-root;
+    padding: 0 5px;
+    margin: 0 auto;
+    background-color: rgb(255, 235, 179);
+}
+
+#header {
+    display: block;
+    width: 100%;
+}
+
+#nav {
+    display: flex;
+    height: 50px;
+    background-color: rgb(255, 199, 179);
+    justify-content: center;
+    align-items: center;
+}
+
+#nav > .nav-item > a {
+    font-family: sans-serif, monospace;
+    font-size: 3vmax;
+    padding: 0 20px;
+    text-decoration: none;
+    color: rgb(84, 202, 231);
+    transition: color 0.3s;
+}
+
+#nav > .nav-item > a:hover {
+    color: rgb(255, 163, 218);
+}
+
+#content {
+    display: block;
+    margin: 20px 40px;
+}
+
+#hero #Team{
+    margin: 0 20px;
+}
+
+#About-2 {
+    background-color: rgb(255, 199, 179);
+}
+
+#Team {
+    display: flex;
+    flex-flow: row wrap 1;
+    padding: 0 20vmin;
+    margin: auto;
+    background-color: tomato;
+    text-align: center;
+}
+
+/* component */
+hr {
+    height: 5px;
+    margin: 40px 20px;
+    background-color: rgb(255, 163, 218);
+    border-radius: 20px;
+}
+
+#banner {
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif, monospace;
+    color: rgb(84, 202, 231);
+}
+
+#banner-hero {
+    font-family: sans-serif, monospace;
+    font-weight: bolder;
+    color: rgb(255, 163, 218);
+    animation: ease-in-out 2s forwards;
+}
+
+.card {
+    padding: 20px 20px;
+    margin: auto;
+}
+
+.card > img {
+    border-radius: 10px;
+    background-color: gr;
+}
+
+/* responsive */
+@media screen and (min-width: 720px) and (max-width: 1079px) { 
+    #container {
+        min-width: 720px;
+    }
+}
+
+@media screen and (min-width: 1080px) { 
+    #container {
+        min-width: 1080px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    #container {
+        min-width: 1366px;
+    }
+}
