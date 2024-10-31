@@ -149,7 +149,7 @@ hr {
     color: rgb(255, 163, 218);
 }
 
-#Product:active {
+#Product:target {
     display: block;
 }
 /* responsive */
