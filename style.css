@@ -141,6 +141,7 @@ hr {
 }
 
 #Product {
+    display: block;
     background-color: rgb(255, 199, 179);
     border-radius: 15px;
     padding: 0 20px;
