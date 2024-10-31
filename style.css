@@ -141,16 +141,16 @@ hr {
 }
 
 #Product {
+    display: none;
     background-color: rgb(255, 199, 179);
     border-radius: 15px;
     padding: 0 20px;
     margin: auto;
-    visibility: hidden;
     color: rgb(255, 163, 218);
 }
 
 #Product:active {
-    visibility: visible;
+    display: block;
 }
 /* responsive */
 @media screen and (min-width: 720px) and (max-width: 1079px) { 
